@@ -50,7 +50,7 @@ class CheckOSApi(OSBase):
         'contrail_analytics': {'path': '/', 'expect': [200], 'name': 'contrail-analytics-api'},
         'contrail_config': {'path': '/', 'expect': [200], 'name': 'contrail-config-api'},
         'congress': {'path': '/', 'expect': [200], 'name': 'congress-api'},
-        'placement': {'path': '/', 'expect': [401], 'name': 'placement-api'},
+        'placement': {'path': '/', 'expect': [200], 'name': 'placement-api'},
         'shipyard': {'path': 'v1.0/health', 'expect': [204, 503], 'name': 'shipyard'},
         'armada': {'path': 'v1.0/health', 'expect': [204, 503], 'name': 'armada'},
         'deckhand': {'path': 'v1.0/health', 'expect': [204, 503], 'name': 'deckhand'},
